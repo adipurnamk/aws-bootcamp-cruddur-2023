@@ -33,21 +33,21 @@ If you facing "Unable to start the environment. To retry, refresh the browser or
 ## Generate AWS Credentials
 ### Generate Console Access
 To enable Console Access, you can click Enable Console Access in IAM > User > Security credentials tab.
-![Enable Console Access](./week0/cloudshell/1.png)
+![Enable Console Access](./week0/credentials/1.png)
 Set your preference, choose Enable console access. 
-![Manage Console Access](./week0/cloudshell/2.png)
+![Manage Console Access](./week0/credentials/2.png)
 Download .csv.
-![Password](./week0/cloudshell/3.png)
+![Password](./week0/credentials/3.png)
 
 ### Generate AWS CLI Access
 To enable AWS CLI, AWS Tools for PowerShell, AWS SDKs, or direct AWS API calls, you can click Enable Console Access in IAM > User > Security credentials tab.
-![Enable Access](./week0/cloudshell/4.png)
+![Enable Access](./week0/credentials/4.png)
 Choose Command Line Interface (CLI).
-![Choosing](./week0/cloudshell/5.png)
+![Choosing](./week0/credentials/5.png)
 Add tag by your preference.
-![Tags](./week0/cloudshell/6.png)
+![Tags](./week0/credentials/6.png)
 Download .csv.
-![Download](./week0/cloudshell/7.png)
+![Download](./week0/credentials/7.png)
 
 ## Install AWS CLI
 We need to install AWS CLI first. Since I'm using Ubuntu (WSL based), we'll install based on [Installing or updating the latest version of the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
