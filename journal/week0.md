@@ -27,13 +27,30 @@ To open AWS Cloudshell, you can click Terminal icon on the left side of notifica
 ![AWS Cloudshell](./week0/cloudshell/1.png)
 Welcome to AWS Cloudshell!
 ![AWS CLoudshell Welcome Page](./week0/cloudshell/2.png)
-If you have facing "Unable to start the environment. To retry, refresh the browser or restart by selecting Actions, Restart AWS CloudShell." error. Please refer this [documentation](https://repost.aws/questions/QUH54A371dRvej5J1G_yZogw/error-when-launching-aws-cloud-shell-unable-to-start-the-environment) and change your region.
-![Unable to start the environment](./week0/cloudshell/3.png)
+If you facing "Unable to start the environment. To retry, refresh the browser or restart by selecting Actions, Restart AWS CloudShell." error. Please refer this [documentation](https://repost.aws/questions/QUH54A371dRvej5J1G_yZogw/error-when-launching-aws-cloud-shell-unable-to-start-the-environment) and change your region.
+![Unable to start the environment](./week0/credentials/1.png)
 
 ## Generate AWS Credentials
+### Generate Console Access
+To enable Console Access, you can click Enable Console Access in IAM > User > Security credentials tab.
+![Enable Console Access](./week0/cloudshell/1.png)
+Set your preference, choose Enable console access. 
+![Manage Console Access](./week0/cloudshell/2.png)
+Download .csv.
+![Password](./week0/cloudshell/3.png)
+
+### Generate AWS CLI Access
+To enable AWS CLI, AWS Tools for PowerShell, AWS SDKs, or direct AWS API calls, you can click Enable Console Access in IAM > User > Security credentials tab.
+![Enable Access](./week0/cloudshell/4.png)
+Choose Command Line Interface (CLI).
+![Choosing](./week0/cloudshell/5.png)
+Add tag by your preference.
+![Tags](./week0/cloudshell/6.png)
+Download .csv.
+![Download](./week0/cloudshell/7.png)
 
 ## Installed AWS CLI
-Before we can use Cloudshell, we need to install AWS CLI first. Since I'm using Ubuntu (WSL based), we'll install based on [Installing or updating the latest version of the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
+We need to install AWS CLI first. Since I'm using Ubuntu (WSL based), we'll install based on [Installing or updating the latest version of the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
 
 ## Create a Billing Alarm	
 ## Create a Budget	
