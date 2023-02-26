@@ -79,8 +79,8 @@ Preview.
 ![Preview](./week0/alarm/8.png)
 When ypu got status 'Pending confirmation', you need to confirm SNS subcription that has been sent yo your email.
 ![Pending](./week0/alarm/9.png)
-After confirmation, your status 
-![Enabled](./week0/alarm/9.png) turn to active.
+After confirmation.
+![Enabled](./week0/alarm/9.png)
 
 ## Create a Budget	
 
