@@ -63,7 +63,25 @@ Check AWS CLI installation using 'aws --version' command.
 Configure AWS CLI using 'aws configure' and check running configuration using 'aws configure list'.
 ![AWS Configure](./week0/cli/3.png)
 
-## Create a Billing Alarm	
+## Create a Billing Alarm
+You can activate Billing Alerts in Billing Preferences, and enable it's alert by clicking Manage Billing Alerts
+![Billing Preferences](./week0/alarm/1.png)
+Create alarm.
+![Billing Alarm](./week0/alarm/2.png)
+Set metric and condition.
+![Metric and Condition](./week0/alarm/3.png)
+![Metric and Condition](./week0/alarm/4.png)
+Configure actions by adding new email and new SNS topic.
+![Actions](./week0/alarm/5.png)
+Add alert name.
+![Name](./week0/alarm/7.png)
+Preview.
+![Preview](./week0/alarm/8.png)
+When ypu got status 'Pending confirmation', you need to confirm SNS subcription that has been sent yo your email.
+![Pending](./week0/alarm/9.png)
+After confirmation, your status 
+![Enabled](./week0/alarm/9.png) turn to active.
+
 ## Create a Budget	
 
 ---
