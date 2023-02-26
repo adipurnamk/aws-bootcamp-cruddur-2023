@@ -83,6 +83,14 @@ After confirmation.
 ![Enabled](./week0/alarm/9.png)
 
 ## Create a Budget	
+You can activate Budget in Billing Preferences, then 'try the new budgets feature'
+![Billing Preferences](./week0/alarm/1.png)
+Create a Budget
+![Create a Budget](./week0/budget/1.png)
+Use Zero spend budget template and set budget name. You need to insert email for notification.
+![Budget Type](./week0/budget/2.png)
+Bedget has been created.
+![Budget Type](./week0/budget/4.png)
 
 ---
 
