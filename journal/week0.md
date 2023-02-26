@@ -49,8 +49,20 @@ Add tag by your preference.
 Download .csv.
 ![Download](./week0/cloudshell/7.png)
 
-## Installed AWS CLI
+## Install AWS CLI
 We need to install AWS CLI first. Since I'm using Ubuntu (WSL based), we'll install based on [Installing or updating the latest version of the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
+
+```
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+```
+
+![Download .zip ](./week0/cli/1.png)
+Check AWS CLI installation using 'aws --version' command.
+![AWS CLI Version](./week0/cli/2.png)
+Configure AWS CLI using 'aws configure' and check running configuration using 'aws configure list'.
+![AWS Configure](./week0/cli/3.png)
 
 ## Create a Billing Alarm	
 ## Create a Budget	
