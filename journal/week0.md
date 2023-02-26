@@ -5,7 +5,6 @@ https://lucid.app/lucidchart/f66a78bf-14fd-40d8-a1fc-e65645e223aa/view?page=0_0&
 
 ---
 
-## Security Consideration
 ## Create an Admin User
 From Search Bar, search for IAM to make a new Admin user.	
 ![IAM](./week0/admin/1.png)
